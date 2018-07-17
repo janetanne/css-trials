@@ -2,7 +2,7 @@
 <html>
 
   <head>
-  	<title>005.html</title>
+  	<title>006.html</title>
   	
     <style>
       div {
@@ -18,8 +18,7 @@
         background-color: blue;
       }
 
-      .inline-block {
-        display: inline-block;
+      .insidesquare {
         height: 100px;
         width: 100px;
         margin-top: 50px;
@@ -27,6 +26,9 @@
         background-color: black;
       }
 
+      .inlineblock {
+        display: inline-block;
+      }
 
   	</style>
   
@@ -34,14 +36,12 @@
 
   <body>
 
-  	<div id="red">
-      <div class="inline-block"></div>
-      <div class="inline-block"></div>
-    </div>
-
-    <div id="blue">
-      <div class="inline-block"></div>
-      <div class="inline-block"></div>
+  	<div id="red" class="inlineblock">
+      <div class="insidesquare inlineblock"></div>
+      <div class="insidesquare inlineblock">
+      </div></div><div id="blue" class="inlineblock">
+        <div class="insidesquare inlineblock"></div>
+        <div class="insidesquare inlineblock"></div>
     </div>
 
   </body>
